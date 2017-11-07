@@ -40,8 +40,6 @@ class App extends Component {
 			playlistTrack.id !== track.id
 		);
 
-		console.log(typeof newList);
-
 		this.setState({
 			playlistTracks: newList
 		});
